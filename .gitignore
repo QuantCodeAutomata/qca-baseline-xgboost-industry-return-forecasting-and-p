@@ -1,0 +1,28 @@
+# Raw Massive API market data — never commit
+data/*.parquet
+data/*.csv
+data/*.json
+data/*.feather
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
